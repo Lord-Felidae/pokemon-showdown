@@ -19239,4 +19239,25 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	// Fakemon
 };
+
+/* Template ========
+
+	name: {
+		num: 0,
+		name: "Name",
+		types: ["Type"],
+		baseStats: {hp: 00, atk: 00, def: 00, spa: 00, spd: 00, spe: 00},
+		abilities: {0: "Ability", 1: "Ability", H: "Ability"},
+		heightm: 000,
+		weightkg: 000,
+		color: "White",
+		prevo: "Prevo",
+		evoLevel: 000,
+		evos: ["Evo"],
+		eggGroups: ["Undiscovered"],
+		gen: 9,
+	},
+	
+*/
