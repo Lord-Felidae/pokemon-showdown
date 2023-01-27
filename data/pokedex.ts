@@ -1,4 +1,5 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
+	// Kanto Pokemon
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",
@@ -3316,6 +3317,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
 	},
+	// Johto Pokemon
 	chikorita: {
 		num: 152,
 		name: "Chikorita",
@@ -4838,6 +4840,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
 	},
+	// Hoenn Pokemon
 	treecko: {
 		num: 252,
 		name: "Treecko",
@@ -7062,6 +7065,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		changesFrom: "Deoxys",
 	},
+	// Sinnoh Pokemon
 	turtwig: {
 		num: 387,
 		name: "Turtwig",
@@ -9071,6 +9075,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
 	},
+	// Unovan Pokemon
 	snivy: {
 		num: 495,
 		name: "Snivy",
@@ -11521,6 +11526,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Chill Drive",
 		changesFrom: "Genesect",
 	},
+	// Kalos Pokemon
 	chespin: {
 		num: 650,
 		name: "Chespin",
@@ -12844,6 +12850,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
 	},
+	// Alolan Pokemon
 	rowlet: {
 		num: 722,
 		name: "Rowlet",
@@ -14613,6 +14620,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
 	},
+	// Pokemon Go Pokemon
 	meltan: {
 		num: 808,
 		name: "Meltan",
@@ -14655,6 +14663,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		changesFrom: "Melmetal",
 	},
+	// Galarian Pokemon
 	grookey: {
 		num: 810,
 		name: "Grookey",
@@ -16392,6 +16401,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		changesFrom: "Calyrex",
 	},
+	// Hisuian Pokemon
 	wyrdeer: {
 		num: 899,
 		name: "Wyrdeer",
@@ -16529,6 +16539,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		changesFrom: "Enamorus",
 	},
+	// Paldean Pokemon
 	sprigatito: {
 		num: 906,
 		name: "Sprigatito",
@@ -17997,6 +18008,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Restricted Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
+	// Misc Pokemon
 	missingno: {
 		num: 0,
 		name: "MissingNo.",
@@ -18008,6 +18020,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
+	// CAP Pokemon
 	syclar: {
 		num: -1,
 		name: "Syclar",
@@ -18990,6 +19003,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 		gen: 8,
 	},
+	// Pokestar Props
 	// NOTE: PokeStar "formes" are not actually formes and thus do not have a formeOrder
 	pokestarsmeargle: {
 		num: -5000,
